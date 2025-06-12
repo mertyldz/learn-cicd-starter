@@ -33,7 +33,7 @@ func TestGetAPIKey(t *testing.T) {
 		},
 		{
 			key:       "Authorization",
-			value:     "ApiKey xxxxxx",
+			value:     "ApiKe xxxxxx",
 			expect:    "xxxxxx",
 			expectErr: "not expecting an error",
 		},
